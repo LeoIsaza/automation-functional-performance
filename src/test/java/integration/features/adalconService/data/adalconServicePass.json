@@ -1,0 +1,10 @@
+[
+  {
+    "idAzure": "0000",
+    "testCase": "Ejecución Exitosa del servicio Cloud ADALCON",
+    "usuario": "data.usuario",
+    "password": "data.password",
+    "numper": "'000001234123'",
+    "nombenredtar": "'AUTO QA'"
+  }
+]

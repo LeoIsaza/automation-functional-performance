@@ -1,0 +1,3 @@
+Esta carpeta contiene:
+
+DB = Contiene los scripts de conexion de la base de datos + utilitarios + las features.

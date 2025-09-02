@@ -1,0 +1,5 @@
+{ "username": "FCUBS_RO",
+  "password": "RynhdSzd#41jkks",
+  "url": "jdbc:oracle:thin:@10.10.12.118:1521/BICECON_APP_TEST.paas.oracle.com",
+  "driverClassName": "oracle.jdbc.driver.OracleDriver"
+}

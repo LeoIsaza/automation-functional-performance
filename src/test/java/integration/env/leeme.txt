@@ -1,0 +1,1 @@
+Este archivo contiene los archivos de entorno. En el cual debemos agregar las base_path de las url por entorno.

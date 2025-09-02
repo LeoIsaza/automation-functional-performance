@@ -1,38 +1,57 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+#Allure
+allure-results
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
-*.iml
-*.ipr
+#Credential
+*.tmp
 
-### Eclipse ###
-.apt_generated
-.classpath
+#.env
+#*.env.swp
+#.env
+
+# Maven
+target
 .factorypath
-.project
+
+# TestNG
+test-output
+report
+
+# Eclipse
+.metadata
 .settings
-.springBeans
-.sts4-cache
+.classpath
+.project
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# IntelliJ IDEA
+.idea
+*.iml
 
-### VS Code ###
+# Windows
+RemoteSystemsTempFiles
+
+# Mac
+.DS_Store
+/bin/
+
+# VS Code
 .vscode/
 
-### Mac OS ###
-.DS_Store
+results
+script.mjs
+.cucumber+
+
+## Archivos no modificar
+src/test/java/integration/IntegrationTest.java
+src/test/java/integration/helpers/DP/DataProviders.java
+src/test/java/integration/helpers/DB/DbUtils.java
+src/test/java/integration/listener/CustomListener.java
+src/test/java/data-provider.js
+src/test/java/karate-config.js
+src/test/resources/azure_integration.properties
+src/test/resources/gatling.conf
+pom.xml
+results
+.github/workflows
+logs
+
+

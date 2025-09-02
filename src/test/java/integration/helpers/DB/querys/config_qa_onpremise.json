@@ -1,0 +1,5 @@
+{ "username": "fcc_con",
+  "password": "fcccon",
+  "url": "jdbc:oracle:thin:@srvcoreqa-cluster:1521/FCORQA2",
+  "driverClassName": "oracle.jdbc.driver.OracleDriver"
+}

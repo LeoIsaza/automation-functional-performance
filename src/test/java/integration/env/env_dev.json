@@ -1,0 +1,27 @@
+{
+  "adalconUrl": "http://dominio-dev.com:8080/axis2/services/SAT_ADALCONWS.SAT_ADALCONWSHttpSoap12Endpoint/",
+  "adaltarUrl": "http://dominio-dev.com:8081",
+  "flaldmiUrl": "http://dominio-dev.com:8080",
+  "flalpagUrl": "http://dominio-dev.com:8082",
+  "flcldisUrl": "http://dominio-dev.com:8083",
+  "flalinUrl":  "http://dominio-dev.com:8084",
+  "flmolimUrl": "http://dominio-dev.com:8085",
+  "fltireeUrl": "http://dominio-dev.com:8086",
+  "opclautUrl": "https://sat-co-dev-priv.fif.tech/axis2/services/SAT_OPCLAUTWS",
+  "opclcccUrl": "http://dominio-dev-opclccc.com:7005",
+  "opclcuoUrl": "http://dominio-dev-opclcuo.com:7005",
+  "opclextUrl": "http://dominio-dev-opclext.com:7005",
+  "opclmocUrl": "http://dominio-dev-opclmoc.com:7005",
+  "tialbctUrl": "http://dominio-dev-tialbct.com:7005",
+  "ticoblqUrl": "http://dominio-dev-ticoblq.com:7005",
+  "ticolimUrl": "http://dominio-dev-ticolim.com:7005",
+  "timobloUrl": "http://dominio-dev-timoblo.com:7119",
+  "opclrmaUrl": "http://dominio-dev-opclrma.com:7005",
+
+
+  "data" : {
+      "usuario" : "Leonardo",
+      "password" : "Sophos.2025"
+
+  }
+}

@@ -1,0 +1,5 @@
+{ "username": "flexcube",
+  "password": "flexcube",
+  "url": "jdbc:oracle:thin:@srvdescore:1521/DEVFCUB",
+  "driverClassName": "oracle.jdbc.driver.OracleDriver"
+}

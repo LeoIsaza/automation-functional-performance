@@ -24,6 +24,7 @@ Feature: Consulta de autorizaciones (Opclaut)
       </web:runService>
       </soapenv:Body>
       </soapenv:Envelope>
+      """
 
      * method post
 

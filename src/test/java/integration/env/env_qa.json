@@ -1,0 +1,26 @@
+{
+  "adalconUrl": "http://10.140.40.12:7005",
+  "adaltarUrl": "http://10.140.40.12:7009",
+  "flaldmiUrl": "http://10.140.40.12:7005",
+  "flalpagUrl": "http://10.140.40.90:7119",
+  "flcldisUrl": "http://10.140.40.12:7005",
+  "flalinUrl": "http://10.140.40.12:7005",
+  "flmolimUrl": "http://10.140.40.94:7007",
+  "fltireeUrl": "http://10.140.40.12:7005",
+  "opclautUrl": "https://sat-co-qa-priv.fif.tech/axis2/services/SAT_OPCLAUTWS",
+  "opclcccUrl": "http://10.140.40.12:7005",
+  "opclcuoUrl": "http://10.140.40.12:7005",
+  "opclextUrl": "http://10.140.40.12:7005",
+  "opclmocUrl": "http://10.140.40.12:7005",
+  "tialbctUrl": "http://10.140.40.12:7005",
+  "ticoblqUrl": "http://10.140.40.12:7005",
+  "ticolimUrl": "http://10.140.40.12:7005",
+  "timobloUrl": "http://10.140.40.90:7119",
+  "opclrmaUrl": "http://10.140.40.12:7005",
+
+  "data" : {
+      "usuario" : "Leonardo",
+      "password" : "Sophos.2025"
+
+  }
+}
