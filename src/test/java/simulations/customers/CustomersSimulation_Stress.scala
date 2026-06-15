@@ -6,7 +6,7 @@ import io.gatling.core.Predef.{Simulation, configuration, constantUsersPerSec, c
 import scala.concurrent.duration.DurationInt
 import scala.language.postfixOps
 
-class CustomersSimulation extends Simulation{
+class CustomersSimulation_Stress extends Simulation{
 
   val feed = csv("integration/features/customers/performance/data/createCustomers/createCustomer.csv").circular
 
