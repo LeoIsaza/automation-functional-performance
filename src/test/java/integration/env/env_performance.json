@@ -1,4 +1,10 @@
 {
-  "urlService": " http://200.14.169.120:9053/ServicioFlexCubo-ServicioFlexCubo-context-root/ServicioFlexCuboPort",
-  "urlCustomers":"https://jsonplaceholder.typicode.com"
+  "urlService": "http://200.14.169.120:9053/ServicioFlexCubo-ServicioFlexCubo-context-root/ServicioFlexCuboPort",
+  "urlCustomers":"https://jsonplaceholder.typicode.com",
+
+  "data" : {
+    "usuario" : "LeonardoDEV",
+    "password" : "Sophos.2025"
+
+  }
 }
