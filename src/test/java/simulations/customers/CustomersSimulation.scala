@@ -21,10 +21,10 @@ class CustomersSimulation extends Simulation{
   // 1 tps
   setUp(
     putCreateCustomer.inject(
-      constantUsersPerSec(3) during (2 seconds),
-      constantUsersPerSec(4) during (2 seconds),
-      constantUsersPerSec(5) during (2 seconds),
-      constantUsersPerSec(6) during (2 seconds)
+      constantUsersPerSec(3) during (20 seconds),
+      constantUsersPerSec(4) during (20 seconds),
+      constantUsersPerSec(5) during (20 seconds),
+      constantUsersPerSec(6) during (20 seconds)
       //constantUsersPerSec(7) during (1 minutes),
     ).protocols(protocol)
   ).maxDuration(5.minutes)
