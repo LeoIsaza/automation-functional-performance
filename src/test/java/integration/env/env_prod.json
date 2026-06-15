@@ -1,21 +1,4 @@
 {
-  "adalconUrl": "http://dominio-produccion.com:8080",
-  "adaltarUrl": "http://dominio-produccion.com:8081",
-  "flaldmiUrl": "http://dominio-produccion.com:8080",
-  "flalpagUrl": "http://dominio-produccion.com:8082",
-  "flcldisUrl": "http://dominio-produccion.com:8083",
-  "flalinUrl":  "http://dominio-produccion.com:8084",
-  "flmolimUrl": "http://dominio-produccion.com:8085",
-  "fltireeUrl": "http://dominio-produccion.com:8086",
-  "opclautUrl": "https://sat-co-prod-priv.fif.tech/axis2/services/SAT_OPCLAUTWS",
-  "opclcccUrl": "http://dominio-prod-opclccc.com:7005",
-  "opclcuoUrl": "http://dominio-prod-opclcuo.com:7005",
-  "opclextUrl": "http://dominio-prod-opclext.com:7005",
-  "opclmocUrl": "http://dominio-prod-opclmoc.com:7005",
-  "tialbctUrl": "http://dominio-prod-tialbct.com:7005",
-  "ticoblqUrl": "http://dominio-prod-ticoblq.com:7005",
-  "ticolimUrl": "http://dominio-prod-ticolim.com:7005",
-  "timobloUrl": "http://dominio-prod-timoblo.com:7119",
   "opclrmaUrl": "http://dominio-prod-opclrma.com:7005",
 
 

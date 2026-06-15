@@ -1,2 +1,4 @@
 {
+  "urlService": " http://200.14.169.120:9053/ServicioFlexCubo-ServicioFlexCubo-context-root/ServicioFlexCuboPort",
+  "urlCustomers":"https://jsonplaceholder.typicode.com"
 }

@@ -1,0 +1,17 @@
+[
+  {
+    "case": "TESTCASE: Validar que al no encontrar un cliente devuelva un vacío",
+    "customerId": "10000",
+    "expectedStatus": 404
+  },
+  {
+    "case": "TESTCASE: Validar que al enviar un valor no numerico, se maneje la excepción",
+    "customerId": "'23L'",
+    "expectedStatus": 404
+  },
+  {
+    "case": "TESTCASE: Validar que se manejen caracteres especiales",
+    "customerId": "'1000#'",
+    "expectedStatus": 404
+  }
+]

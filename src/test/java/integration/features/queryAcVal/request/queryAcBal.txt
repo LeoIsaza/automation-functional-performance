@@ -1,0 +1,23 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Body>
+        <ns0:processMsg xmlns:ns0="http://www.bancochile.cl/core">
+            <ns0:arg0><![CDATA[<?xml version="1.0" encoding="ISO-8859-1"?>
+<FCCACSTMT>
+    <QUERY_AC_BAL>
+        <SCODE>PCOMERCIAL</SCODE>   <!--  MANDATORIO - Identificador del canal -->
+        <XREF/> <!--   MANDATORIO -->
+        <BRN/>  <!--   MANDATORIO - Código de oficina de la cuenta -->
+        <ACC>@ACC</ACC> <!--  MANDATORIO - Número de la cuenta -->
+        <SMS>
+            <USER_ID>AUTO</USER_ID>  <!--Id de usuario (max 10 caracteres)-->
+        </SMS>
+    </QUERY_AC_BAL>
+</FCCACSTMT>]]></ns0:arg0>
+            <ns0:arg1>PCOMERCIAL</ns0:arg1>
+            <ns0:arg2>X</ns0:arg2>
+            <ns0:arg3/>
+            <ns0:arg4/>
+            <ns0:arg5>@TXNID</ns0:arg5>
+        </ns0:processMsg>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

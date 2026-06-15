@@ -1,0 +1,40 @@
+[
+  {
+    "case": "TESTCASE: Validar creación de cliente exitosa",
+    "name": "data.usuario",
+    "username": "'leoQA1'",
+    "email": "'leo1@test.com'",
+    "expectedStatus": 201
+  },
+
+  {
+    "case": "TESTCASE: Validar creación de cliente con username nulo",
+    "name": "'Leonardo1'",
+    "username": "'null'",
+    "email": "'leo1@test.com'",
+    "expectedStatus": 201
+  },
+
+  {
+    "case": "TESTCASE: Validar creación de cliente con correo nulo",
+    "name": "'Leonardo1'",
+    "username": "'leoQA1'",
+    "email": "null",
+    "expectedStatus": 201
+  },
+
+  {
+    "case": "TESTCASE: Validar creación de cliente con campos vacios",
+    "name": "''",
+    "username": "''",
+    "email": "''",
+    "expectedStatus": 201
+  },
+  {
+    "case": "TESTCASE: Validar creación de cliente con campos nulos",
+    "name": "null",
+    "username": "null",
+    "email": "null",
+    "expectedStatus": 201
+  }
+]
