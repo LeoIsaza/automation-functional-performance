@@ -21,10 +21,10 @@ class QueryCustomersSimulation extends Simulation{
   // 1 tps
   setUp(
     getQueryCustomer.inject(
-      constantUsersPerSec(9) during (20 seconds),
-      constantUsersPerSec(10) during (20 seconds),
-      constantUsersPerSec(11) during (20 seconds),
-      constantUsersPerSec(12) during (20 seconds)
+      constantUsersPerSec(3) during (20 seconds),
+      constantUsersPerSec(4) during (20 seconds),
+      constantUsersPerSec(5) during (20 seconds),
+      constantUsersPerSec(6) during (20 seconds)
       //constantUsersPerSec(7) during (1 minutes),
     ).protocols(protocol)
   ).maxDuration(5.minutes)

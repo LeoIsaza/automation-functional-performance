@@ -1,5 +1,6 @@
 #Allure
 allure-results
+allure-report
 
 #Credential
 *.tmp
