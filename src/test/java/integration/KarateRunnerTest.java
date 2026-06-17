@@ -14,15 +14,11 @@ class KarateRunnerTest {
                 .hook(new AllureKarate())
                 .parallel(10);
 
-        if (results.getFailCount() > 0) {
-            System.out.println("❌ Tests fallaron:");
-            System.out.println(results.getErrorMessages());
-        } else {
-            System.out.println("✅ Tests OK");
-        }
-
         // ✅ Generar Allure report automáticamente
-        generateAllureReport();
+        //generateAllureReport();
+        if (results.getFailCount() > 0) {
+            throw new AssertionError("Fallos detectados:\n" + results.getErrorMessages());
+        }
     }
 
     private void generateAllureReport() {
@@ -38,17 +34,14 @@ class KarateRunnerTest {
                     "-o",
                     "allure-report"
             );
-
             processBuilder.inheritIO(); // muestra logs en console
             Process process = processBuilder.start();
             int exitCode = process.waitFor();
-
             if (exitCode == 0) {
                 System.out.println("✅ Allure report generado correctamente");
             } else {
                 System.out.println("❌ Error generando Allure report");
             }
-
         } catch (Exception e) {
             System.out.println("❌ Exception al generar Allure report:");
             e.printStackTrace();
